@@ -25,6 +25,10 @@ language: cpp
 install:
   - sudo pip install cpp-coveralls
 
+os:
+  - linux
+  - osx
+  
 compiler:
   - clang
   - gcc
